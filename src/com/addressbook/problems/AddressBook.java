@@ -17,25 +17,18 @@ public class AddressBook {
 	private ContactPerson getUserInput() {
 		System.out.print("Enter FirstName:");
 		String FirstName = scanner.next();
-
 		System.out.println("Enter LastName: ");
 		String LastName = scanner.next();
-
 		System.out.print("Enter Address: ");
 		String Address = scanner.next();
-
 		System.out.print("Enter City: ");
 		String City = scanner.next();
-
 		System.out.print("Enter State: ");
 		String State = scanner.next();
-
 		System.out.print("Enter ZipCode: ");
 		String ZIPCode = scanner.next();
-
 		System.out.print("Enter Mobile Number: ");
 		String MobileNo = scanner.next();
-
 		System.out.println("Enter Email Id:");
 		String emailId = scanner.next();
 
@@ -78,4 +71,3 @@ public class AddressBook {
 
 	}
 }
-	
