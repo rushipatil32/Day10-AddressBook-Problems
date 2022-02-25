@@ -10,7 +10,7 @@ public class AddressBook {
 	static AddressBook book = new AddressBook();
 
 	public static void main(String[] args) {
-		System.out.println("Welcome to Address Book Program");
+		System.out.println("Welcome to addressbook");
 		book.getUserChoice();
 	}
 
